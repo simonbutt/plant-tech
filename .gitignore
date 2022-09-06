@@ -3,6 +3,7 @@ key.json
 .envrc
 
 data
+src/dataset-config.yml
 
 # Python
 
