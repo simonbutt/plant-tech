@@ -1,6 +1,7 @@
 # Dataset config
 name: "plant-tech-raw-v1"
 bucket_path_prefix: {path}
+max_samples: 50
 metadata_config:
   raw_labels:
     source: bq-query
