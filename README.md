@@ -104,6 +104,7 @@ Mongo is a hard dependency for fiftyone.
 # local
 docker run --net=host mongo:latest
 ```
+\* Remember to refresh mongo between fiftyone sessions
 
 ### ngrok
 [ngrok](https://ngrok.com/) can be used for demos (though be careful).
@@ -113,7 +114,7 @@ With either the local or containerised application running + mongo
 ngrok http 5151
 ```
 
-### [CVAT](https://github.com/opencv/cvat)
+## [CVAT](https://github.com/opencv/cvat)
 
 TODO
 

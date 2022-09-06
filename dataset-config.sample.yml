@@ -1,0 +1,7 @@
+# Dataset config
+name: "plant-tech-raw-v1"
+bucket_path_prefix: {path}
+metadata_config:
+  raw_labels:
+    source: bq-query
+    query: {bq-query}
