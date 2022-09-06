@@ -1,0 +1,7 @@
+set -a
+
+export PYTHONPATH=$PYTHONPATH:$(pwd)
+export LOG_LEVEL=INFO
+
+export BUCKET_NAME=""
+export BUCKET_PATH_PREFIX=""

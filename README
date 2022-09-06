@@ -1,0 +1,38 @@
+# Plant Tech CV Toolkit
+
+<strong>Objective</strong>: Build an opensource computer vision (CV) toolkit for plant tech use case.
+
+## Pre-requisites
+
+```
+# Install python version
+pyenv install
+
+# Install python package dependencies
+poetry install
+
+```
+### [Direnv](https://direnv.net/)
+Direnv is a local environment variable tool. [Installment documentation](https://direnv.net/docs/installation.html)
+
+```
+direnv allow
+```
+
+## UX
+
+### JupyterLab
+
+Local notebook workplace
+```
+poetry run jupyter lab
+```
+
+### [FiftyOne](https://voxel51.com/docs/fiftyone/)
+
+Fiftyone CV image visualisation opensource package.
+```
+poetry run src/DataLoader
+```
+
+### [CVAT]
