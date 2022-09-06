@@ -6,3 +6,4 @@ metadata_config:
   raw_labels:
     source: bq-query
     query: {bq-query}
+    key: {key}
