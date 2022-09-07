@@ -41,10 +41,7 @@ if __name__ == "__main__":
     logging.info("Starting dataset load")
     dataset_config: dict = _get_dataset_config()
 
-    DL: Type[DataLoader] = DataLoader(
-        volume_path=data_path,
-        project_id=project_id
-    )
+    DL: Type[DataLoader] = DataLoader(volume_path=data_path, project_id=project_id)
     dataset: fo.Dataset = (
         DL._demo_dataset()
         if is_demo.lower() == "true"

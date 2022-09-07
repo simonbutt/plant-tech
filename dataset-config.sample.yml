@@ -7,3 +7,7 @@ metadata_config:
     source: bq-query
     query: {bq-query}
     key: {key}
+    value: {value}
+    label_map:
+      "label_key_1": label_name_1
+      "label_key_2": label_name_2
